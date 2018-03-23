@@ -4,7 +4,7 @@ $(document).ready(function () {
     var $panels = $('#slider .scrollContainer > div');
     var $container = $('#slider .scrollContainer');
 
-    // if false, we'll float all the panels left and fix the width 
+    // if false, we'll float all the panels left and fix the width
     // of the container
     var horizontal = false;
 
@@ -18,6 +18,7 @@ $(document).ready(function () {
         // calculate a new width for the container (so it holds all panels)
         $container.css('width', $panels[0].offsetWidth * $panels.length);
     }
+    
 
     // collect the scroll object, at the same time apply the hidden overflow
     // to remove the default scrollbars that will appear
@@ -56,9 +57,9 @@ $(document).ready(function () {
     // offset is used to move to *exactly* the right place, since I'm using
     // padding on my example, I need to subtract the amount of padding to
     // the offset.  Try removing this to get a good idea of the effect
-    var offset = parseInt((horizontal ? 
-        $container.css('paddingTop') : 
-        $container.css('paddingLeft')) 
+    var offset = parseInt((horizontal ?
+        $container.css('paddingTop') :
+        $container.css('paddingLeft'))
         || 0) * -1;
 
 
@@ -71,7 +72,7 @@ $(document).ready(function () {
         navigation: '.navigation a',
 
         // selectors are NOT relative to document, i.e. make sure they're unique
-        prev: 'img.left', 
+        prev: 'img.left',
         next: 'img.right',
 
         // allow the scroll effect to run both directions
@@ -84,21 +85,21 @@ $(document).ready(function () {
         // duration of the sliding effect
         duration: 500,
 
-        // easing - can be used with the easing plugin: 
+        // easing - can be used with the easing plugin:
         // http://gsgd.co.uk/sandbox/jquery/easing/
         easing: 'swing'
     };
 
-    // apply serialScroll to the slider - we chose this plugin because it 
-    // supports// the indexed next and previous scroll along with hooking 
+    // apply serialScroll to the slider - we chose this plugin because it
+    // supports// the indexed next and previous scroll along with hooking
     // in to our navigation.
     $('#slider').serialScroll(scrollOptions);
 
-    // now apply localScroll to hook any other arbitrary links to trigger 
+    // now apply localScroll to hook any other arbitrary links to trigger
     // the effect
     $.localScroll(scrollOptions);
 
-    // finally, if the URL has a hash, move the slider in to position, 
+    // finally, if the URL has a hash, move the slider in to position,
     // setting the duration to 1 because I don't want it to scroll in the
     // very first page load.  We don't always need this, but it ensures
     // the positioning is absolutely spot on when the pages loads.

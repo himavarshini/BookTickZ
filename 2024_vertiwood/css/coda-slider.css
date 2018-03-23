@@ -42,11 +42,11 @@
 
 #content {
 	float: right;
-	margin-top: 60px;
-	width: 502px;
-	height: 576px;
+	margin-top: 35px;
+	width: 500px;
+	height: 550px;
 	padding: 10px;
-	background: url(../images/tooplate_main.png) no-repeat top left
+	background: url(../images/main.png) no-repeat top left
 }
 
 .content_section {

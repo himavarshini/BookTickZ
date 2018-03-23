@@ -1,0 +1,363 @@
+/*
+
+Template 2024 Vertiwood
+
+http://www.tooplate.com/view/2024-vertiwood
+
+*/
+
+html, body {
+  margin: 0; padding: 0;
+}
+.hero-bkg-animated {
+	margin: 0px;
+	padding: 0px;
+	width: auto;
+	height: auto;
+	color: #978a71;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	line-height: 1.5em;
+	background-color: #000000;
+	background: black url("images/midground.png") repeat 0 0;
+	background-repeat: repeat-x;
+  -webkit-animation: slide 20s linear infinite;
+}
+
+.hero-bkg-animated h1 {
+  font-family: sans-serif;
+}
+
+@-webkit-keyframes slide {
+    from { background-position: 0 0; }
+    to { background-position: -1000px 0; }
+}
+
+
+
+a, a:link, a:visited {
+	color: #98610c;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.orange {
+	color: #C60;
+}
+
+.green {
+	color: #399;
+}
+
+p {
+	margin: 0 0 15px 0;
+	padding: 0;
+}
+
+img { border: none; }
+
+h1, h2, h3, h4, h5, h6 {
+	color: #000;
+}
+
+h1 {
+	font-size: 30px;
+	font-weight: normal;
+	margin: 0 0 20px 0;
+	padding: 5px 0;
+}
+
+h2 {
+	font-size: 20px;
+	font-weight: normal;
+	padding-bottom: 20px;
+	margin: 0 0 20px 0;
+	font-weight: normal;
+	border-bottom: 1px dashed #000;
+}
+
+h3 {
+	font-size: 20px;
+	margin: 0 0 15px 0;
+	padding: 0;
+	font-weight: normal;
+}
+
+h4 {
+	font-size: 16px;
+	margin: 0 0 15px 0;
+	padding: 0;
+}
+
+h5 {
+	font-size: 12px;
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+.cleaner { clear: both }
+.h10 { height: 10px }
+.h20 { height: 20px }
+.h30 { height: 30px }
+.h40 { height: 40px }
+.h50 { height: 50px }
+.h60 { height: 60px }
+
+.float_l { float: left; }
+.float_r { float: right; }
+
+.image_wrapper {
+	display: inline-block;
+	border: 1px dashed #666;
+	padding: 4px;
+	margin-bottom: 10px;
+}
+
+.image_fl {
+	float: left;
+	margin: 3px 20px 0 0;
+}
+
+.image_fr {
+	float: right;
+	margin: 3px 0 0 20px;
+}
+
+blockquote { font-style: italic; margin: 0 0 0 10px;}
+cite { font-weight: bold; color:#333; }
+cite span { color: #333; }
+em { color: #ab6700; }
+
+.btn_more a {
+	display: inline-block;
+	font-weight: bold;
+	color: #000;
+	font-size: 12px;
+	padding: 2px 15px 2px 0;
+	text-decoration: none;
+}
+
+.btn_more a:hover {
+	padding-right: 20px;
+	text-decoration: none;
+}
+
+.col_340 { width: 340px; }
+.col_400 { width: 400px; }
+.col_280 { width: 280px; }
+
+.service_list {
+	margin: 0 0 0 15px;
+	padding: 0;
+	list-style: none;
+}
+
+.service_list li {
+	margin: 0;
+	padding: 0;
+}
+
+.service_list li a {
+	font-size: 13px;
+	display: block;
+	height: 25px;
+	margin-bottom: 10px;
+	padding-left: 40px;
+	text-decoration: none;
+}
+
+.service_list li .service_one {
+	background: url(images/onebit_08.png) center left no-repeat;
+}
+
+.service_list li .service_two {
+	background: url(images/onebit_11.png) center left no-repeat;
+}
+
+.service_list li .service_three {
+	background: url(images/onebit_17.png) center left no-repeat;
+}
+
+.service_list li .service_four {
+	background: url(images/onebit_21.png) center left no-repeat;
+}
+
+.service_list li .service_five {
+	background: url(images/onebit_12.png) center left no-repeat;
+}
+
+.service_list li .service_six {
+	background: url(images/onebit_19.png) center left no-repeat;
+}
+
+#contact_form {
+	padding: 0;
+	width: 340px;
+}
+
+#contact_form form {
+	margin: 0px;
+	padding: 0px;
+}
+
+#contact_form form .input_field {
+	width: 240px;
+	padding: 5px;
+	color: #333;
+	background: #ffffff;
+	border: 1px solid #dddad6;
+	font-family: Verdana,Geneva,sans-serif;
+    font-size: 12px;
+	margin-top: 5px;
+}
+
+#contact_form form label {
+	display: block;
+	width: 100px;
+	margin-right: 10px;
+	font-size: 13px;
+}
+
+#contact_form form textarea {
+	width: 328px;
+	height: 80px;
+	padding: 5px;
+	color: #333;
+	background: #ffffff;
+	border: 1px solid #dddad6;
+	font-family: Verdana,Geneva,sans-serif;
+    font-size: 12px;
+	margin-top: 5px;
+}
+
+#contact_form form .submit_btn {
+	margin: 5px 0px;
+	padding: 5px 14px;
+	background: #ffffff;
+	border: 1px solid #dddad6;
+}
+
+/* gallery */
+#gallery_container {
+	clear: both;
+	margin: 0;
+	padding: 0;
+}
+
+#gallery_container li {
+	float: left;
+	width: 170px;
+	display: block;
+	padding: 0;
+	margin: 0 15px 10px 0;
+	font-size: 11px;
+	color: #fff;
+	text-align: center;
+}
+
+#gallery_container .odd {
+	margin: 0 0 10px 0;
+}
+
+#gallery_container li img {
+	width: 120px;
+	height: 80px;
+	padding: 4px;
+	border: 1px dotted #333;
+	background: none;
+}
+
+
+/* end of gallery */
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.5);
+  overflow: hidden;
+  width: 100%;
+  height:0;
+	cursor: pointer;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+#slider {
+	overflow: hidden;
+}
+
+@keyframes slider {
+	0% { left: 0; }
+	30% { left: 0; }
+	33% { left: -100%; }
+	63% { left: -100%; }
+	66% { left: -200%; }
+	95% { left: -200%; }
+	100% { left: 0; }
+}
+#slider figure {
+	width: 300%;
+	position: relative;
+	animation: 9s slider infinite;
+}
+
+#slider figure:hover {
+	/*animation-play-state: paused; enable for pause on hover*/
+}
+#slider figure img {
+	width: 30%;
+	height : 100%;
+	float: left;
+}
+
+@keyframes slideshow {
+	10% {left: 0;}
+	20% {left: 0;}
+	30% {left: -100%;}
+	40% {left: -100%;}
+	50% {left: -200%;}
+	60% {left: -200%;}
+	70% {left: -300%;}
+	80% {left: -300%;}
+	90% {left: -400%;}
+	100% {left: -400%}
+}
+
+.fling-minislide {width:200px; height:300px; overflow:hidden; position:absolute; }
+.fling-minislide img{ position:absolute; animation:fling-minislide 20s infinite; opacity:0; width: 100%; height: auto;}
+
+@keyframes fling-minislide {25%{opacity:1;} 40%{opacity:0;}}
+.fling-minislide img:nth-child(4){animation-delay:0s;}
+.fling-minislide img:nth-child(3){animation-delay:5s;}
+.fling-minislide img:nth-child(2){animation-delay:10s;}
+.fling-minislide img:nth-child(1){animation-delay:15s;}
